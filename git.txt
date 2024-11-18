@@ -1,0 +1,7 @@
+git init
+git add . 
+git commit -m "Initial commit"
+git remote add origin https://github.com/devdanishai/workout.git
+git branch
+git branch -M main  # Ensure your branch is named 'main'
+git push -u origin main
