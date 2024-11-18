@@ -1,0 +1,27 @@
+pip install -r requirements.txt
+
+
+
+for running app on multiple devices write following in
+uvicorn api.main:app --host 0.0.0.0 --port 8000
+place this in address bar
+http://127.0.0.1:8000/docs
+
+workout/
+├── .venv/
+├── api/
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── routines.py
+│   │   └── workouts.py
+│   ├── __init__.py
+│   ├── database.py
+│   ├── deps.py
+│   ├── main.py
+│   └── models.py
+├── workout_app.db
+├── .env
+├── dani.txt
+└── requirements.txt
+
