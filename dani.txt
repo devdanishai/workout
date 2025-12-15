@@ -3,7 +3,7 @@ pip install -r requirements.txt
 
 
 for running app on multiple devices write following in
-uvicorn api.main:app --host 0.0.0.0 --port 8000
+uvicorn api.main:app --host 0.0.0.0 --port 80000
 place this in address bar
 http://127.0.0.1:80000/docs
 
